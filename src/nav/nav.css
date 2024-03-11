@@ -1,0 +1,47 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav {
+    z-index: 9;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.avatar {
+    margin: 4vh 2vh 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0%;
+}
+
+.avatar img {
+    height: 80px;
+    width: auto;
+}
+
+.logs {
+    height: 80px;
+    width: auto;
+    margin-right: 5vh;
+}
+
+.lefts button {
+    border: none;
+    background: none;
+    margin-right: 4vh;
+    color: white;
+}
+.lefts button:hover {
+  text-decoration: underline;
+}
+
+    

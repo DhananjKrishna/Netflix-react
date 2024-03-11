@@ -1,0 +1,164 @@
+
+
+body {
+ 
+  background-color: black;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+ 
+}
+.sliders{
+  margin-top: 30px;
+
+}
+.item{
+  margin-right: 40px;
+ 
+}
+.img{
+  width: 350px;
+  margin-right:10px ;
+
+}
+.img:hover{
+  cursor: pointer;
+  scale: 1.03;
+  transition: 0.25s ease-in-out;
+  
+}
+.small{
+  width: 220px;
+  margin-right:10px ;
+}
+.small:hover{
+  cursor: pointer;
+  scale: 1.03;
+  transition: 0.25s ease-in-out;
+}
+
+.orgin{
+
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 25px;
+}
+.orgin::-webkit-scrollbar{
+display: none;
+}
+
+.item-desc{
+  width: 250px;
+  margin-right: 20px;
+  display: flex;
+}
+.container{
+  display: flex;
+  
+}
+.title {
+  padding-bottom: 15px;
+}
+
+
+.featured {
+  height: 90vh;
+  position: relative;
+  
+  background-size: cover;
+  background-position: center;
+  padding: 230px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.featured h2 {
+  letter-spacing: 3px;
+  font-size: 50px;
+  margin: 0;
+  z-index: 10;
+}
+
+.featured .featured__buttons{
+  z-index: 10;
+}
+
+.featured .featured__buttons button{
+  font-size: 16px;
+  color: white;
+  background-color: rgba(109, 109, 110, 0.7);
+  border: none;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+.featured .featured__buttons .button__play ,.featured1 .featured__buttons .button__play,.featured2 .featured__buttons .button__play{
+  background-color: white;
+  color: black;
+}
+
+.button__play i {
+  margin-right: 6px;
+}
+
+.featured .featured__description,.featured1 .featured__description,.featured2 .featured__description {
+  max-width: 410px;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  z-index: 10;
+}
+
+.modal-body iframe {
+  width: 100%;
+}
+
+.modal-body span {
+  color: #333;
+  width: 100%;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > img {
+  width: 120px;
+}
+
+.profile {
+  position: relative;
+}
+
+.profile > img {
+  width: 40px;
+}
+
+.featured::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.featured::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
